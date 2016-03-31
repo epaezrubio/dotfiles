@@ -1,0 +1,10 @@
+[core]
+    editor = nano
+	whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+[user]
+	name = Eduardo Paez Rubio
+	email = contact@devpaezrubio.com
+[alias]
+	hist = log --graph --decorate --pretty=oneline --abbrev-commit
+    safe-pull = pull --ff-only
+    find = "!git ls-files | grep -i"
