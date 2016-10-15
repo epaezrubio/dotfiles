@@ -1,8 +1,8 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "files.autoSave": "afterDelay",
-    "editor.fontFamily": "Ubuntu Mono, monospace",
-    "editor.fontSize": 15,
+    "files.autoSave": "onWindowChange",
+    "editor.fontFamily": "Consolas, Ubuntu Mono, monospace",
+    "editor.fontSize": 14,
     "editor.rulers": [
         100
     ]
