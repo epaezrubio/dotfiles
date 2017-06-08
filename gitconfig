@@ -5,6 +5,6 @@
 	name = Eduardo Paez Rubio
 	email = contact@devpaezrubio.com
 [alias]
-	hist = log --graph --decorate --pretty=oneline --abbrev-commit
+    hist = log --graph --decorate --pretty=oneline --abbrev-commit
     safe-pull = pull --ff-only
     find = "!git ls-files | grep -i"
