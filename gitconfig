@@ -8,3 +8,4 @@
     hist = log --graph --decorate --pretty=oneline --abbrev-commit
     safe-pull = pull --ff-only
     find = "!git ls-files | grep -i"
+    stats = diff --stat
