@@ -1,13 +1,5 @@
-export HISTCONTROL=ignoreboth
 export HISTSIZE=10000
 export HISTIGNORE="[ ]*"
-export SHARE_TARGET=/home/eduardo/data/shared
-
-export GIT_EDITOR=nano
-
-share () {
-  cp -Rf $1 $SHARE_TARGET
-}
 
 extract () {
   if [ -f $1 ] ; then
@@ -29,3 +21,7 @@ extract () {
     echo "'$1' is not a valid file"
   fi
 }
+
+alias resource='source ~/.bashrc'
+alias xc="xclip -selection clipboard"
+
