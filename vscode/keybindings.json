@@ -1,27 +1,34 @@
-// Place your key bindings in this file to overwrite the defaults
 [
     {
+        "key": "ctrl+meta+.",
+        "command": "eslint.executeAutofix"
+    },
+    {
+        "key": "ctrl+shift+pagedown",
+        "command": "workbench.action.navigateLeft"
+    },
+    {
+        "key": "ctrl+shift+pageup",
+        "command": "workbench.action.navigateRight"
+    },
+    {
+        "key": "ctrl+k alt+u",
+        "command": "editor.action.transformToUppercase"
+    },
+    {
+        "key": "ctrl+k alt+l",
+        "command": "editor.action.transformToLowercase"
+    },
+    {
+        "key": "ctrl+k ctrl+s",
+        "command": "workbench.action.files.saveAll"
+    },
+    {
+        "key": "ctrl+k alt+w",
+        "command": "workbench.action.closeOtherEditors"
+    },
+    {
         "key": "ctrl+shift+d",
-        "when": "editorTextFocus",
-        "command": "editor.action.copyLinesDownAction"
-    },
-    {
-        "key": "ctrl+b",
-        "command": "editor.action.goToDeclaration",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+shift+b",
-        "command": "editor.action.referenceSearch.trigger",
-        "when": "editorTextFocus"
-    },{
-      "key": "shift+alt+f",
-      "command": "editor.action.format",
-      "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+alt+k",
-        "command": "extension.addDocComments",
-        "when": "editorTextFocus"
+        "command": "editor.action.duplicateSelection"
     }
 ]

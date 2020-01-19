@@ -1,9 +1,15 @@
-// Place your settings in this file to overwrite the default settings
 {
-    "files.autoSave": "onWindowChange",
-    "editor.fontFamily": "Consolas, Ubuntu Mono, monospace",
-    "editor.fontSize": 14,
-    "editor.rulers": [
-        100
-    ]
+    "[python]": {
+      "editor.rulers": [80, 100],
+      "editor.codeActionsOnSave": {
+          "source.organizeImports": false
+      }
+    },
+    "breadcrumbs.enabled": true,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.autoSave": "off",
+    "files.trimTrailingWhitespace": true,
+    "window.zoomLevel": -1,
+    "workbench.editor.enablePreview": false
 }
