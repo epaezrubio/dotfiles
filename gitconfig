@@ -10,6 +10,7 @@
     ppush = "!git push --set-upstream origin \"$(git rev-parse --abbrev-ref HEAD)\""
     ppull = "!git branch --set-upstream-to origin/\"$(git rev-parse --abbrev-ref HEAD)\" && git pull"
     ffetch = "!ff() { git fetch origin \"$1\":\"$1\"; };ff"
+    br1 = "rev-parse --abbrev-ref HEAD"
     co = checkout
     st = status
 
