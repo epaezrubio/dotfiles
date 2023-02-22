@@ -1,11 +1,15 @@
 [core]
     editor = vim
     whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+
 [user]
 	name = Eduardo Paez Rubio
 	email = contact@devpaezrubio.com
+
 [alias]
-    hist = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+    lg = lg1
+    lg1 = lg1-specific --all
+    lg1-specific = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(auto)%d%C(reset)'
     find = "!git ls-files | grep -i"
     ppush = "!git push --set-upstream origin \"$(git rev-parse --abbrev-ref HEAD)\""
     ppull = "!git branch --set-upstream-to origin/\"$(git rev-parse --abbrev-ref HEAD)\" && git pull"
